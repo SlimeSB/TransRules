@@ -59,7 +59,7 @@
         - `已移除%2$s的%1$s效果`
     - 如果不确定最终效果，请打开游戏进行测试。
     - 注意不要误用全角百分号 `％`。
-- [格式化代码](https://zh.minecraft.wiki/w/格式化代码) 形如 `§0` `§r` ，又称颜色代码。一般使用 `§0` 或者 `&0` 恢复默认颜色，`§r` 或者 `&r` 恢复默认格式。遇到时请保留，并将其放到对应文本两侧。
+- [格式化代码](https://zh.minecraft.wiki/w/格式化代码) 形如 `§0` `§r` 或 `&0` `&r`，又称颜色代码。一般使用 `§0` 或者 `&0` 恢复默认颜色，`§r` 或者 `&r` 恢复默认格式。遇到时请保留，并将其放到对应文本两侧。
 - [命令](https://zh.minecraft.wiki/w/命令) 使用帮助中，命令本身（`/time` `/say`）以及字面量（`set|add|query`）需要**保留原文**。描述性的参数名需要翻译。
     - `/time <set|add|query> <value>`（Minecraft 1.12）
     - `/time <set|add|query> <值>`
@@ -77,8 +77,8 @@
     - 对于方括号 `[]`，建议按原版直接使用 `[]`。
     - 选项中的省略号可以只用半个 `…`。
 - 英文字母、阿拉伯数字等非中文字符，与中文字符之间不添加空格分开。
-    - 阿拉伯数字与英文单位之间也不添加空格。
     - Patchouli 手册中的文本中仍需在中文与非中文字符之间添加空格。
+    - 数字与英文单位缩写之间不必添加空格。（需要100RF才可工作）
     - 中文字符与标点符号之间不添加空格。按句翻译时记得删去每句之间的空格。
     - 有特殊规定的术语、专有名词除外。
 - 因排版需要或另有格式要求之处除外。
@@ -94,6 +94,7 @@
     - 对于原版中出现的术语请对照 Minecraft Wiki 上的 [译名标准化](https://zh.minecraft.wiki/w/Minecraft_Wiki:译名标准化) 页面翻译。
         - 对于 1.19.2 及以下版本的模组翻译，需注意 [译名标准化/历史](https://zh.minecraft.wiki/w/Minecraft_Wiki:译名标准化/历史) 的译名更改。确保使用对应版本的术语。
         - 1.19.3 及以上版本均可收到最新的语言文件变动，不必刻意区分，按最新版译名翻译即可。
+        - 英语原文更改时，会生成一个新的键，而旧键会被保留以供旧版本使用。涉及原文更改的译名变动需注意按版本区分。
     - 对于其他术语，应当保持前后翻译一致，附属模组与主模组翻译一致。必要时可建立术语库方便管理。
 - 部分术语根据语境不同需要调整措辞，比如树木。详见 [树木名](#树木名)
 - 对不同的术语，翻译也应不同。这样才能使其含义精确且唯一。
@@ -121,7 +122,7 @@
 - 一些提示性语句有固定的表达方式，注意翻译记忆的提示。
     - `and %s more...` (Minecraft，潜影盒)
     - `还有%s项未显示…`
-- [字幕](https://zh.minecraft.wiki/w/%E5%AD%97%E5%B9%95)一般是翻译键中带有 `subtitles` 或 `sound` 的条目，有固定翻译格式。
+- [字幕](https://zh.minecraft.wiki/w/%E5%AD%97%E5%B9%95) 一般是翻译键中带有 `subtitles` 或 `sound` 的条目，有固定翻译格式。
     - 若字幕原文为主谓结构，则应译作 `主体：声音` 的格式。
     - `Bee buzzes` -> `蜜蜂：嗡嗡`（Minecraft）
     - 若原文没有主语，视情况翻译。
@@ -240,12 +241,12 @@
 ## 7. 工具辞典<a id="7-工具辞典"></a>
 
 - [ParaTranz](https://paratranz.cn/) 可以实现基本的计算机辅助翻译（CAT）功能，并且支持多人协作。  
-<!-- - Tryanks 编写的适用于 Minecraft 1.16+ 版本的 Minecraft [模组翻译器](https://github.com/CFPATools/Minecraft-Mods-Translator)（**已归档**）
+- Tryanks 编写的适用于 Minecraft 1.16+ 版本的 Minecraft [模组翻译器](https://github.com/CFPATools/Minecraft-Mods-Translator)（**已归档**）
 - Snownee 编写的一个[在线网页工具](https://snownee.github.io/l10n-tools/update.html)
 - crafteverywhere 之前写的一个[文本更新检测工具](https://github.com/crafteverywhere/Craft_Minecraft_Mod_Localization/blob/master/lang_checker.py)（运行需要 Python 3+ 环境）
 - GitHub [语言文件关键字查询](https://github.com/Meow-J/Mod-Translation-Styleguide/blob/master/tools/GithubKeywordQuery.py)（需要 Python 3.4+ 环境）
 - GWYOG 的 [LocalizationAssistant](https://github.com/GWYOG/LocalizationAssistant)（运行需要 Java 运行环境，**已过时**）
-- 3TUSK 的[文本自动更新工具](https://github.com/3TUSK/TemporaryLocalization/blob/1.9/Tool_Update.lua)（运行需要 Lua 5.3+ 运行环境，**已过时**） -->
+- 3TUSK 的[文本自动更新工具](https://github.com/3TUSK/TemporaryLocalization/blob/1.9/Tool_Update.lua)（运行需要 Lua 5.3+ 运行环境，**已过时**）
 
 ### 辞典资源<span id="辞典资源"></span>
 - [模组翻译参考词典（MCMOD）](https://dict.mcmod.cn/)或[模组翻译参考词典（VM）](https://dict.vmct-cn.top/)。前者访问更快，后者更新更快。
@@ -255,7 +256,6 @@
 - [术语在线](https://www.termonline.cn) 全国科学技术名词审定委员会审定的术语。
 - [剑桥辞典](https://dictionary.cambridge.org/zhs/)
 - [欧路词典](https://www.eudic.net/) 快捷键查词、剪贴板查词软件。
-- [模组译名标准化列表](https://github.com/Krasjet/Mod-Translation-Styleguide/blob/master/glossary.md)（**部分已过时**）
 
 ## 8. 参考资料<a id="8-参考资料"></a>
 
