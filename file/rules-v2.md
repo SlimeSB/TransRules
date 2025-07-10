@@ -251,7 +251,8 @@
 - GWYOG 的 [LocalizationAssistant](https://github.com/GWYOG/LocalizationAssistant)（运行需要 Java 运行环境，**已过时**）
 - 3TUSK 的[文本自动更新工具](https://github.com/3TUSK/TemporaryLocalization/blob/1.9/Tool_Update.lua)（运行需要 Lua 5.3+ 运行环境，**已过时**）
 
-### 辞典资源<span id="辞典资源"></span>
+### 辞典资源<a id="辞典资源"></a>
+
 - [模组翻译参考词典（MCMOD）](https://dict.mcmod.cn/)或[模组翻译参考词典（VM）](https://dict.vmct-cn.top/)。前者访问更快，后者更新更快。
 - [我的世界中英术语库](https://github.com/CFPAOrg/Glossary)
 - [CFPA汉化资源包仓库](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package) 主页下的各类可用资源
@@ -303,8 +304,6 @@
 | [[奥气]] |    `\u9feb`    |                                      |
 |    ……    | `\u22ef\u22ef` |                                      |
 |    ——    |    `\u2e3a`    |                                      |
-
-
 
 ## 附录：树木名翻译格式参考表格<a id="附录：树木名翻译格式参考表格"></a>
 
