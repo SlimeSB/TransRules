@@ -185,7 +185,7 @@
 - 键盘功能键​​（如 Shift、Ctrl 等）请不要翻译，并将首字母改为大写。
 - 游戏动作（如 Sneak、Interact、Reload）需要翻译，且不要翻译成对应的按键，因为这些键位是可以更改的。`Sneak and right click` -> `潜行右击`
 - 鼠标操作（如 Right Click、Click）需要翻译，注意不要译作“左键”（Left Mouse Button）“右键”，应译作“右键点击”“右击”等，可以参考原版的翻译。
-- [翻译共识](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/pull/5008) 记录的是达成一致的争议翻译处理办法。它比指南更加灵活，但也可能不够严谨。尽管如此，它仍是重要的参考依据。
+- [翻译共识](https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/wiki/翻译用语共识) 记录的是达成一致的争议翻译处理办法。它比指南更加灵活，但也可能不够严谨。尽管如此，它仍是重要的参考依据。
 <!-- # 翻译共识记得看看要不要挪窝 -->
 ## 4. 专有名词<a id="4-专有名词"></a>
 
@@ -292,7 +292,7 @@
 - ZYF 001-2016 本地化翻译和文档排版质量评估规范
 - GB/T 19682-2005 翻译服务译文质量要求
 - GB/T 15834-2011 标点符号用法
-- [史前自然](https://www.mcmod.cn/class/4869.html) 翻译团队的贡献
+- [史前自然](https://www.mcmod.cn/class/4869.html) 模组翻译团队的贡献
 
 ## 附录：特殊字符替换表<a id="附录：特殊字符替换表"></a>
 
