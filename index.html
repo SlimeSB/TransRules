@@ -1,43 +1,51 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <!-- 8102 年的 IE 兼容 -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- 优秀的国产浏览器兼容 -->
-    <meta name="renderer" content="webkit">
-    <!-- 窗口大小，缩放大小 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 标题 -->
-    <title>模组简体中文翻译规范与指南</title>
-    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <!-- 自己的 css -->
-    <link rel="stylesheet" href="css/index.css">
-    <!-- 图标，emmmm，还没想好，随便选了个 -->
-    <link rel="icon" href="https://avatars1.githubusercontent.com/u/34183279?s=16">
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
+
+  <!-- Replace with your own title and description. -->
+  <title>Awesome Docsify Site</title>
+  <meta name="description" content="An awesome docsify site for publishing some content on the web.">
+
+  <!-- Default Theme (see https://docsify.js.org/#/themes) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
 </head>
 
 <body>
-    <!-- 标题 -->
-    <div class="page-header">
-        <h1>Minecraft 模组简体中文翻译规范与指南<br><small>—— 2023-11-25 ——</small></h1>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="container col-md-8" id='main'></div>
-            <div class="col-md-2"></div>
-        </div>
-    </div>
-    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
-    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- 加载 Bootstrap 的所有 JavaScript 插件 -->
-    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- showdown 框架 -->
-    <script src="https://cdn.bootcdn.net/ajax/libs/showdown/1.8.6/showdown.min.js"></script>
-    <!-- 自己的 js -->
-    <script src="js/index.js"></script>
-</body>
+  <div id="app"></div>
 
+  <script>
+    // Docsify Configuration (see https://docsify.js.org/#/configuration)
+    window.$docsify = {
+      name: 'Simple Docsify Template',
+
+      // Sidebar Configuration
+      auto2top: true,
+      loadSidebar: true,
+      maxLevel: 0,
+      // Set subMaxLevel to 0 to remove automatic display of page table of contents (TOC) in Sidebar
+      subMaxLevel: 3,
+
+      // Search Plugin Configuration
+      search: {
+        placeholder: 'Type to search',
+        noData: 'No matches found.',
+        // Headline depth, 1 - 6
+        depth: 2,
+      }
+    };
+  </script>
+
+  <!-- Required -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+
+  <!-- Recommended -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+
+</body>
 </html>
